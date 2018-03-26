@@ -78,5 +78,5 @@ for ($j = 0; $j < $listNumber; $j ++) {
 }
 
 echo "</table>";
-echo "<p align = center><input type ='submit' onClick='checkSolution(sb.onoff)'></form>";
+echo "<p align = center><input type ='submit' value=' O K ' onClick='checkSolution(sb.onoff)'></form>";
 ?> 

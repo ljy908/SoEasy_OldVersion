@@ -36,5 +36,5 @@ echo "<td align = 'center' colspan = 4><font size=4 color = white><b>New GroupCo
 echo "<tr><td align = 'center'>GroupControl Name</td><td><input type=edit name = name value=0 size = 30><br></tr>";
 
 echo "</table>";
-echo "<p align = center><input type ='submit' value = 'ok' onClick='checkSolution(sb.onoff)'></form>";
+echo "<p align = center><input type ='submit' value = ' O K ' onClick='checkSolution(sb.onoff)'></form>";
 ?> 

@@ -22,5 +22,5 @@
 	echo "<tr><td align = 'center'>변수 이름</td><td><input type=edit name = name value=0 size = 30></td></tr><tr><td align = 'center'>초기화 값</td><td><input type=edit name = initValue value=0  size = 30></td></tr>";
 
 	echo "</table>";
-	echo "<p align = center><input type ='submit' onClick='checkSolution(sb.onoff)'></form>"; 
+	echo "<p align = center><input type ='submit' value=' O K ' onClick='checkSolution(sb.onoff)'></form>"; 
 ?> 

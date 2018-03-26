@@ -168,20 +168,20 @@ echo "<tr><td align = 'center' colspan = 5 bgcolor = $TableColorResult><font siz
 echo "<br>";
 
 if ($menuSelect == 3) {
-    echo " <tr><td colspan = 2 align = center  bgcolor = white>	<font size = 1>�쐞 珥덇린�솕<input type = radio name = initUpBackground value = 1>�븘�옒 珥덇린�솕<input type = radio name = initDownBackground value = 1> </font></td></tr>";
+    echo " <tr><td colspan = 2 align = center  bgcolor = white>	<font size = 1> Initialize the above <input type = radio name = initUpBackground value = 1> Initialize below <input type = radio name = initDownBackground value = 1> </font></td></tr>";
     for ($i = 0; $i < sizeof($fileList); $i ++) {
         if ($fileList[$i] != "." && $fileList[$i] != ".." && $fileList[$i] != "imageWhere") {
             $imageResult = $imageLocationResult . "/" . $fileList[$i];
             echo "<tr><td align = 'center' colspan = 2 width = 30  bgcolor = white><img src = $imageResult width = 330 height = 330></td>
 					  <tr><td colspan = 2  bgcolor = white>	<font size = 1>$fileList[$i] </font></td></tr>
-					  <tr><td width = 10  bgcolor = white>	�꽑�깮 </td> <td align = center><input type = radio name = backgroundImage value = $fileList[$i]</td></tr>
-					  <tr><td  bgcolor = white>	諛곌꼍 �쐞移�</td><td align = center> <input type = radio name = whereImage value = 'up'> �쐞濡� <input type = radio name = whereImage value = 'down'> �븘�옒濡�";
+					  <tr><td width = 10  bgcolor = white>	Select </td> <td align = center><input type = radio name = backgroundImage value = $fileList[$i]</td></tr>
+					  <tr><td  bgcolor = white> Background location </td><td align = center> <input type = radio name = whereImage value = 'up'> UP <input type = radio name = whereImage value = 'down'> DOWN";
         }
     }
 }
 echo "</tr>";
 echo "</table>";
 
-echo "<p align = center><input type ='submit' onClick='checkSolution(sb.onoff)'></form>";
+echo "<p align = center><input type ='submit' value=' O K ' onClick='checkSolution(sb.onoff)'></form>";
 
 ?> 

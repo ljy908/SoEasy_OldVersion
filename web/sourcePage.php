@@ -7,9 +7,9 @@
 	frames.</title>
 </head>
 <frameset rows="100%" cols="1*">
-	<frameset rows="1*" cols="19%, 81%">
+	<frameset rows="1*" cols="250, 500">
 		<frame name="contents" scrolling="auto" marginwidth="10"
-			marginheight="14" namo_target_frame="footer" src="sourceList.php">
+			marginheight="12" namo_target_frame="footer" src="sourceList.php">
 		<frame name="detail" scrolling="yes" marginwidth="10"
 			marginheight="14" src="sourceEdit.php">
 	</frameset>

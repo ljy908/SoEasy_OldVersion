@@ -2,11 +2,11 @@
 
 <?php
 
-/*** ***************** New pin added ******************/
+/**
+ * * ***************** New pin added *****************
+ */
 
-
-//***********************S E T T I N G*********************************
-
+// ***********************S E T T I N G*********************************
 require ("./functionList.php");
 
 // Read the table colors stored in DB.
@@ -25,9 +25,9 @@ $imageResult = substr($imageResult, 0, $imageSearch + 4);
 
 echo "<body background	=	'$imageResult'>";
 
-//***********************S E T T I N G*********************************
+// ***********************S E T T I N G*********************************
 
-//Strart funtion
+// Strart funtion
 echo "<form action=new_ok.php method=post> ";
 
 // include topTitle.php
@@ -58,5 +58,5 @@ echo "<tr align = center><td><font size = 1>5</font></td><td><font size = 1>UART
 echo "<tr align = center><td><font size = 1>6</font></td><td><font size = 1>UART TX</font></td></tr>";
 echo "</table>";
 
-echo "<p align = center><input type ='submit' value = 'ok' onClick='checkSolution(sb.onoff)'></form>";
+echo "<p align = center><input type ='submit' value = ' O K ' onClick='checkSolution(sb.onoff)'></form>";
 ?> 
